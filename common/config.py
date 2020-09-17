@@ -13,9 +13,9 @@ header = {
     "元素": "ELEMENT",
     "测试数据": "DATA",
     "自动化标记": "FLAG",
-    "执行结果": "RESULT",
+    "步骤执行结果": "RESULT",
+    "用例预期结果": "EXPECTED",
     "执行时间": "RUNTIME",
-    "错误信息": "ERINFO",
 }
 
 keywords = {

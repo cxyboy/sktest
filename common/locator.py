@@ -23,12 +23,12 @@ def locating_element(element):
     try:
         element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
     except:
-        logger.exception(f"元素：{element}第一次定位超时，等待三秒重试！！！")
+        logger.exception(f"元素：'{element}'第一次定位超时，等待三秒重试！！！")
         sleep(3)
         try:
             element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
         except:
-            logger.exception(f"元素：{element}定位超时")
+            logger.exception(f"元素：'{element}'定位超时")
         else:
             pass
     return element_location
