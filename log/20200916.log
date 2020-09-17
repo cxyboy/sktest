@@ -1,0 +1,684 @@
+2020-09-16 08:59:20,943 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 08:59:20,944 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 08:59:20,944 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 08:59:20,944 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 08:59:24,756 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 08:59:25,557 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 08:59:25,557 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 08:59:25,557 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 08:59:25,557 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 08:59:26,367 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 08:59:26,709 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 08:59:27,257 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 08:59:27,557 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 08:59:28,103 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 08:59:28,403 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 08:59:38,959 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 08:59:52,502 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 08:59:52,804 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 08:59:53,304 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 09:02:17,552 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 09:02:17,552 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 09:02:17,552 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 09:02:17,552 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 09:02:24,713 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 09:02:25,514 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 09:02:25,514 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 09:02:25,514 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 09:02:25,514 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 09:02:26,317 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 09:02:26,618 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 09:02:27,165 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 09:02:27,466 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 09:02:28,013 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 09:02:28,314 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 09:02:38,843 [ERROR]: #  元素：'咨询单页面-手机号'第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 14:06:55,176 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:06:55,177 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:06:55,177 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:06:55,177 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:06:57,966 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:06:58,768 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:06:58,768 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:06:58,768 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:06:58,769 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:06:59,582 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:06:59,883 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:07:00,431 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:07:00,731 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:07:01,273 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:07:01,574 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:07:12,090 [ERROR]: #  元素：'咨询单页面-手机号'第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 14:07:25,803 [ERROR]: #  元素：'咨询单页面-手机号'定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 14:07:26,140 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 14:07:26,641 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:08:29,296 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:08:29,297 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:08:29,297 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:08:29,297 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:08:32,550 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:08:33,351 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:08:33,351 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:08:33,351 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:08:33,351 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:08:34,127 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:08:34,428 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:08:35,063 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:08:35,364 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:08:35,910 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:08:36,211 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:08:36,490 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 14:08:36,991 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:30:17,212 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:30:17,212 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:30:17,212 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:30:17,213 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:30:19,727 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:30:20,528 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:30:20,528 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:30:20,528 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:30:20,528 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:30:21,314 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:30:21,615 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:30:22,236 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:30:22,536 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:30:23,081 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:30:23,382 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:30:23,663 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 14:30:24,164 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:32:38,255 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:32:38,255 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:32:38,255 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:32:38,256 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:32:40,648 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:32:41,448 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:32:41,448 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:32:41,449 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:32:41,449 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:32:42,287 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:32:42,588 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:32:43,157 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:32:43,458 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:32:44,042 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:32:44,342 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:32:44,731 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 14:32:45,231 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:33:34,182 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:33:34,183 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:33:34,183 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:33:34,183 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:33:39,841 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:33:40,642 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:33:40,642 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:33:40,643 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:33:40,643 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:33:41,497 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:33:41,798 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:33:42,411 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:33:42,712 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:33:43,263 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:33:43,563 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:33:43,880 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 14:33:44,381 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:36:53,598 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:36:53,599 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:36:53,599 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:36:53,599 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:36:58,072 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:36:58,874 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:36:58,874 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:36:58,874 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:36:58,874 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:36:59,650 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:36:59,950 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:37:00,497 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:37:00,798 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:37:01,344 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:37:01,644 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:37:01,931 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 14:37:02,432 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:40:11,289 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:40:11,289 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:40:11,289 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:40:11,289 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:40:13,642 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:40:14,443 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:40:14,443 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:40:14,443 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:40:14,444 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:40:15,275 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:40:15,575 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:40:16,158 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:40:16,459 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:40:17,057 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:40:17,357 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:40:17,678 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-16 14:40:18,179 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:41:57,942 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:41:57,942 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:41:57,942 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:41:57,943 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:42:00,389 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:42:01,190 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:42:01,190 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:42:01,191 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:42:01,191 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:42:02,027 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:42:02,327 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:42:02,971 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:42:03,271 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:42:03,881 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:42:04,182 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:42:05,019 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 14:42:05,820 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:43:58,691 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:43:58,737 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:43:58,737 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:43:58,737 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:44:01,179 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:44:01,980 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:44:01,981 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:44:01,981 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:44:01,981 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:44:02,800 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:44:03,101 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:44:13,588 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Fail
+2020-09-16 14:44:13,588 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:44:24,099 [ERROR]: #  元素：'api详情页面-立即咨询'第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 14:44:37,641 [ERROR]: #  元素：'api详情页面-立即咨询'定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 14:44:38,042 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Fail
+2020-09-16 14:44:38,042 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:44:48,604 [ERROR]: #  元素：'咨询单页面-手机号'第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-16 14:45:08,325 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:45:08,325 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:45:08,325 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:45:08,325 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:45:10,914 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:45:11,715 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:45:11,715 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:45:11,715 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:45:11,715 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:45:12,512 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:45:12,812 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:45:13,446 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:45:13,747 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:45:14,292 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:45:14,592 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:45:15,293 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 14:45:16,095 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:54:20,647 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 14:54:20,648 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:54:20,648 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 14:54:20,648 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 14:54:23,102 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 14:54:23,903 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 14:54:23,904 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 14:54:23,904 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 14:54:23,904 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 14:54:24,714 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 14:54:25,015 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 14:54:25,638 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 14:54:25,938 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 14:54:26,569 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 14:54:26,870 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 14:54:27,572 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 14:54:28,374 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:01:20,858 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:01:20,858 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:01:20,858 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:01:20,858 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:01:23,212 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 15:01:24,013 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:01:24,013 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:01:24,013 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 15:01:24,014 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 15:01:24,838 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 15:01:25,138 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 15:01:25,704 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 15:01:26,005 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 15:01:26,562 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 15:01:26,863 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 15:01:27,522 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 15:01:28,323 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:05:23,284 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:05:23,285 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:05:23,285 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:05:23,286 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:05:26,902 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 15:05:27,702 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:05:27,702 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:05:27,703 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 15:05:27,703 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 15:05:28,526 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 15:05:28,826 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 15:05:29,376 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 15:05:29,677 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 15:05:30,222 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 15:05:30,523 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 15:05:31,186 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 15:05:31,988 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:16:43,548 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:16:43,549 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:16:43,549 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:16:43,549 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:32:21,348 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:32:21,348 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:32:21,348 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:32:21,348 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:32:24,366 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 15:32:25,168 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:32:25,168 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:32:25,168 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 15:32:25,169 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 15:32:25,978 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 15:32:26,278 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 15:32:26,830 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 15:32:27,131 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 15:32:27,678 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 15:32:27,979 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 15:32:28,644 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 15:32:28,945 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 15:32:29,500 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 15:32:30,302 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:43:51,019 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:43:51,019 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:43:51,019 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:43:51,019 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:46:52,960 [ERROR]: #  **** 从Excel导入用例套件失败 ****
+Traceback (most recent call last):
+  File "D:\sktest\sktest\autotest.py", line 29, in run
+    test_suit = testsuit_format(self.test_case_workbook.read(self.case_sheet_name))
+  File "D:\sktest\common\utility.py", line 88, in testsuit_format
+    test_case[key] = i[key]
+KeyError: 'result'
+2020-09-16 15:47:05,744 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:47:05,744 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:47:05,744 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:47:05,744 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:49:00,203 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:49:00,204 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:49:00,204 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:49:00,204 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:51:12,660 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 15:51:12,660 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:51:12,661 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 15:51:12,661 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 15:51:14,987 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 15:51:15,788 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 15:51:15,788 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 15:51:15,788 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 15:51:15,789 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 15:51:16,607 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 15:51:16,907 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 15:51:17,523 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 15:51:17,824 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 15:51:18,383 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 15:51:18,684 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 15:51:19,359 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 15:51:19,660 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 15:51:20,219 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 15:51:21,021 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:08:42,786 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 16:08:42,810 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:08:42,810 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 16:08:42,811 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 16:08:45,521 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 16:08:46,321 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:08:46,321 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:08:46,322 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 16:08:46,322 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 16:08:47,134 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 16:08:47,435 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 16:08:48,023 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 16:08:48,323 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 16:08:48,867 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 16:08:49,168 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 16:08:49,832 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 16:08:50,133 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 16:08:50,690 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 16:08:51,491 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:09:41,363 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 16:09:41,363 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:09:41,364 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 16:09:41,364 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 16:09:45,159 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 16:09:45,960 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:09:45,960 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:09:45,960 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 16:09:45,960 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 16:09:46,736 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 16:09:47,037 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 16:09:47,581 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 16:09:47,881 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 16:09:48,426 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 16:09:48,727 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 16:09:49,397 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 16:09:49,698 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 16:09:50,252 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 16:09:51,053 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:10:47,262 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 16:10:47,262 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:10:47,262 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 16:10:47,263 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 16:10:50,267 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 16:10:51,069 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:10:51,070 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:10:51,070 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 16:10:51,070 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 16:10:51,882 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 16:10:52,183 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 16:10:52,780 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 16:10:53,081 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 16:10:53,628 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 16:10:53,928 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 16:10:54,575 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 16:10:54,875 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 16:10:55,445 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 16:10:56,247 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:14:20,356 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 16:14:20,357 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:14:20,357 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 16:14:20,357 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 16:14:22,757 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 16:14:23,558 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:14:23,558 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:14:23,559 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 16:14:23,559 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 16:14:24,401 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 16:14:24,701 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 16:14:25,250 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 16:14:25,551 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 16:14:26,099 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 16:14:26,399 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 16:14:27,058 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 16:14:27,359 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 16:14:27,915 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 16:14:28,716 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:17:36,782 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 16:17:36,782 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:17:36,783 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 16:17:36,783 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 16:17:39,690 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 16:17:40,492 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:17:40,492 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:17:40,492 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 16:17:40,492 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 16:17:41,281 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 16:17:41,582 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 16:17:42,126 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 16:17:42,427 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 16:17:42,972 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 16:17:43,273 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 16:17:43,931 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 16:17:44,232 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 16:17:44,784 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 16:17:45,585 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:19:29,905 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 16:19:29,906 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:19:29,906 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 16:19:29,906 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 16:19:34,087 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 16:19:34,888 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 16:19:34,888 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 16:19:34,888 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 16:19:34,888 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 16:19:35,664 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 16:19:35,965 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 16:19:36,525 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 16:19:36,825 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 16:19:37,369 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 16:19:37,670 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 16:19:38,398 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 16:19:38,698 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 16:19:39,296 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 16:19:40,097 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:11:55,955 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:12:39,917 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:12:52,263 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:14:22,132 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:14:22,132 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:14:22,132 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:14:22,132 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:14:24,757 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:14:25,559 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:14:25,559 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:14:25,559 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:14:25,559 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:14:26,337 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:14:26,638 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:14:27,278 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:14:27,579 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:14:28,126 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:14:28,427 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:14:29,073 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:14:29,374 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:14:29,922 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:14:30,723 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:16:10,080 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:16:10,081 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:16:10,081 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:16:10,081 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:16:12,729 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:16:13,530 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:16:13,530 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:16:13,530 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:16:13,530 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:16:14,315 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:16:14,616 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:16:15,161 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:16:15,462 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:16:16,013 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:16:16,314 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:16:16,957 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:16:17,258 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:16:17,816 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:16:18,617 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:17:23,116 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:17:23,116 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:17:23,116 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:17:23,116 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:17:25,458 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:17:26,259 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:17:26,259 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:17:26,259 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:17:26,259 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:17:27,056 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:17:27,356 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:17:27,921 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:17:28,221 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:17:28,776 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:17:29,077 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:17:29,722 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:17:30,023 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:17:30,585 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:17:31,386 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:18:36,699 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:18:36,699 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:18:36,699 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:18:36,699 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:18:40,736 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:18:41,537 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:18:41,537 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:18:41,537 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:18:41,537 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:18:42,333 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:18:42,634 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:18:43,179 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:18:43,480 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:18:44,041 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:18:44,341 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:18:44,986 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:18:45,286 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:18:45,848 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:18:46,648 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:19:02,893 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:19:02,893 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:19:02,894 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:19:02,894 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:19:05,831 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:19:06,632 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:19:06,632 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:19:06,632 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:19:06,632 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:19:07,427 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:19:07,727 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:19:08,280 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:19:08,581 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:19:09,133 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:19:09,434 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:19:10,097 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:19:10,398 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:19:10,949 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:19:11,750 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:19:52,911 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:19:52,911 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:19:52,911 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:19:52,911 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:19:55,435 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:19:56,236 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:19:56,236 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:19:56,236 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:19:56,236 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:19:57,030 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:19:57,330 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:19:57,876 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:19:58,176 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:19:58,721 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:19:59,021 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:19:59,684 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:19:59,985 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:20:00,552 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:20:01,353 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:20:46,252 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:20:46,253 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:20:46,253 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:20:46,253 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:20:48,576 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:20:49,376 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:20:49,376 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:20:49,376 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:20:49,376 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:20:50,153 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:20:50,454 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:20:51,014 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:20:51,315 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:20:51,874 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:20:52,174 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:20:52,825 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:20:53,126 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:20:53,677 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:20:54,478 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:22:10,655 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:22:10,655 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:22:10,655 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:22:10,655 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:22:13,286 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:22:14,088 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:22:14,088 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:22:14,088 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:22:14,088 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-16 17:22:14,900 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-16 17:22:15,200 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-16 17:22:15,951 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-16 17:22:16,252 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-16 17:22:16,795 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-16 17:22:17,096 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-16 17:22:17,739 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-16 17:22:18,040 [INFO]: #  Run The Step: 5|CLICK|提交
+2020-09-16 17:22:18,621 [INFO]: #  Run The Step: 5|CLICK|咨询单页面-提交 Success
+2020-09-16 17:22:19,422 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:28:55,977 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-16 17:28:55,977 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:28:55,977 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-16 17:28:55,977 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-16 17:28:58,314 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-16 17:28:58,615 [INFO]: #  ****  用例执行完成  ****
+2020-09-16 17:28:58,615 [INFO]: #  **** 解析用例成功 ****
+2020-09-16 17:28:58,615 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-16 17:28:59,116 [INFO]: #  ****  用例执行完成  ****

@@ -70,3 +70,52 @@
 2020-09-17 10:12:26,405 [INFO]: #  **** 解析用例成功 ****
 2020-09-17 10:12:26,405 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
 2020-09-17 10:12:26,906 [INFO]: #  ****  用例执行完成  ****
+2020-09-17 14:28:36,799 [ERROR]: #  **** Email sent failure ****
+Traceback (most recent call last):
+  File "D:/sktest/test3.py", line 42, in send_email
+    server.login(user, password)
+  File "D:\Program Files (x86)\Python\Python37\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "D:\Program Files (x86)\Python\Python37\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\Program Files (x86)\Python\Python37\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Login Fail. Please enter your authorization code to login. More information in http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+2020-09-17 14:29:27,467 [ERROR]: #  **** Email sent failure ****
+Traceback (most recent call last):
+  File "D:/sktest/test3.py", line 42, in send_email
+    server.login(user, password)
+  File "D:\Program Files (x86)\Python\Python37\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "D:\Program Files (x86)\Python\Python37\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\Program Files (x86)\Python\Python37\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Login Fail. Please enter your authorization code to login. More information in http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+2020-09-17 14:30:57,974 [ERROR]: #  (535, b'Login Fail. Please enter your authorization code to login. More information in http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+2020-09-17 14:45:42,380 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-17 14:45:42,380 [INFO]: #  **** Parse use case successful ****
+2020-09-17 14:45:42,381 [INFO]: #  >>> Executed The TestCase：test-1 打开OMP
+2020-09-17 14:45:42,381 [INFO]: #  >>> Executed The Step: 1|OPEN|OMP首页链接
+2020-09-17 14:45:45,922 [INFO]: #  Executed The Step: 1|OPEN|OMP首页-OMP首页链接 Successfully
+2020-09-17 14:45:46,223 [INFO]: #  ****  Case: test-1:打开OMP executed failure ****
+2020-09-17 14:45:46,223 [INFO]: #  **** Parse use case successful ****
+2020-09-17 14:45:46,223 [INFO]: #  >>> Executed The TestCase：test-2 提交咨询单
+2020-09-17 14:45:46,724 [INFO]: #  ****  Case: test-2:提交咨询单 executed failure ****
+2020-09-17 14:45:50,001 [INFO]: #  **** Email sent successfully ****
+2020-09-17 14:51:30,792 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-17 14:51:30,792 [INFO]: #  **** Parse use case successful ****
+2020-09-17 14:51:30,793 [INFO]: #  >>> Executed The TestCase：test-1 打开OMP
+2020-09-17 14:51:30,793 [INFO]: #  >>> Executed The Step: 1|OPEN|OMP首页链接
+2020-09-17 14:51:33,803 [INFO]: #  Executed The Step: 1|OPEN|OMP首页-OMP首页链接 Successfully
+2020-09-17 14:51:34,104 [INFO]: #  ****  Case: test-1:打开OMP executed failure ****
+2020-09-17 14:51:34,104 [INFO]: #  **** Parse use case successful ****
+2020-09-17 14:51:34,605 [INFO]: #  ****  Case: test-2:提交咨询单 executed failure ****
+2020-09-17 14:51:37,658 [INFO]: #  **** Email sent successfully ****
+2020-09-17 15:03:58,565 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-17 15:03:58,565 [INFO]: #  **** Parse use case successful ****
+2020-09-17 15:03:58,565 [INFO]: #  >>> Executed The Test Case：test-1 打开OMP
+2020-09-17 15:03:58,565 [INFO]: #  >>> Executed The Step: 1|OPEN|OMP首页链接
+2020-09-17 15:04:04,852 [INFO]: #  >>> Executed The Step: 1|OPEN|OMP首页-OMP首页链接 Successfully
+2020-09-17 15:04:05,153 [INFO]: #  ****  Case: test-1:打开OMP executed successfully ****
+2020-09-17 15:04:08,213 [INFO]: #  **** Email sent successfully ****

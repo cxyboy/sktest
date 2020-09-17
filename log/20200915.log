@@ -1,0 +1,1352 @@
+2020-09-15 14:50:31,592 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 14:50:31,593 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 14:50:31,593 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 14:50:31,593 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 14:50:34,001 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 14:50:34,802 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 14:50:34,802 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 14:50:34,803 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 14:50:34,803 [INFO]: #  Run The Step: 1|HOVER|API服务
+2020-09-15 14:50:35,428 [INFO]: #  Run The Step: 1|HOVER|OMP首页-API服务 Success
+2020-09-15 14:50:35,737 [INFO]: #  Run The Step: 2|CLICK|身份证二要素实名认证
+2020-09-15 14:50:45,866 [INFO]: #  Run The Step: 2|CLICK|OMP首页-身份证二要素实名认证 Fail
+2020-09-15 14:50:45,867 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 14:50:56,412 [ERROR]: #  元素：api详情页面-立即咨询第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:51:10,055 [ERROR]: #  元素：api详情页面-立即咨询定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:51:10,056 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Fail
+2020-09-15 14:51:10,057 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 14:51:20,592 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:51:34,108 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:51:34,109 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 14:51:34,610 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 14:57:09,110 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 14:57:09,110 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 14:57:09,110 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 14:57:09,111 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 14:57:12,424 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 14:57:13,225 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 14:57:13,225 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 14:57:13,225 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 14:57:13,225 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 14:57:13,738 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 14:57:14,039 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 14:57:24,124 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Fail
+2020-09-15 14:57:24,124 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 14:57:34,653 [ERROR]: #  元素：api详情页面-立即咨询第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:57:48,182 [ERROR]: #  元素：api详情页面-立即咨询定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:57:48,183 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Fail
+2020-09-15 14:57:48,184 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 14:57:58,731 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:58:12,271 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 14:58:12,271 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 14:58:12,772 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 14:59:37,681 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 14:59:37,681 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 14:59:37,681 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 14:59:37,681 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 14:59:42,245 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 14:59:43,046 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 14:59:43,046 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 14:59:43,046 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 14:59:43,046 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 14:59:43,559 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 14:59:43,860 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 14:59:53,911 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Fail
+2020-09-15 14:59:53,911 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:10:32,061 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:10:32,062 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:10:32,062 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:10:32,062 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:10:34,446 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:10:35,247 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:10:35,247 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:10:35,248 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:10:35,248 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:10:35,789 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:10:36,090 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:10:46,155 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Fail
+2020-09-15 15:10:46,155 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:16:58,430 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:16:58,431 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:16:58,431 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:16:58,431 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:17:03,227 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:17:04,028 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:17:04,028 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:17:04,029 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:17:04,029 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:17:09,072 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:17:09,373 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:17:19,401 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Fail
+2020-09-15 15:17:19,401 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:22:14,607 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:22:14,607 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:22:14,607 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:22:14,607 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:22:17,031 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:22:17,832 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:22:17,832 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:22:17,832 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:22:17,832 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:22:18,629 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:22:18,930 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:22:19,474 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 15:22:19,774 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:22:30,312 [ERROR]: #  元素：api详情页面-立即咨询第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 15:22:43,857 [ERROR]: #  元素：api详情页面-立即咨询定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 15:22:43,858 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Fail
+2020-09-15 15:22:43,859 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 15:22:54,411 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 15:25:03,239 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:25:03,239 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:25:03,240 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:25:03,240 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:25:07,990 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:25:08,792 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:25:08,792 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:25:08,792 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:25:08,792 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:25:09,576 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:25:09,877 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:25:10,425 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 15:25:10,725 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:25:11,296 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 15:25:11,597 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 15:25:12,218 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Success
+2020-09-15 15:25:13,018 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:41:30,915 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:41:30,916 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:41:30,916 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:41:30,916 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:41:33,852 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:41:34,653 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:41:34,653 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:41:34,653 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:41:34,654 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:41:40,462 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:44:05,163 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:44:05,164 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:44:05,164 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:44:05,164 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:44:07,630 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:44:08,432 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:44:08,432 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:44:08,432 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:44:08,433 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:44:09,205 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:44:09,505 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:44:10,054 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 15:44:10,355 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:44:10,899 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 15:44:11,200 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 15:44:21,716 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 15:44:35,276 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 15:44:35,277 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 28, in run
+    snapshot()
+  File "D:\sktest\common\snapshot.py", line 17, in snapshot
+    result = g.driver.save_screenshot()
+TypeError: save_screenshot() missing 1 required positional argument: 'filename'
+2020-09-15 15:45:23,152 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:45:23,152 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:45:23,152 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:45:23,152 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:45:25,541 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:45:26,342 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:45:26,342 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:45:26,342 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:45:26,342 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:45:27,144 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:45:27,444 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:45:28,078 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 15:45:28,378 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:45:28,972 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 15:45:29,273 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 15:45:39,839 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 15:45:53,398 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 15:45:53,728 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 15:45:54,228 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:58:58,708 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:58:58,708 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:58:58,708 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:58:58,709 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:59:01,332 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:59:02,133 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:59:02,133 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:59:02,133 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:59:02,133 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:59:02,913 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:59:03,214 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:59:29,840 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 15:59:29,841 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:59:29,841 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 15:59:29,841 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 15:59:32,478 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 15:59:33,279 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 15:59:33,279 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 15:59:33,279 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 15:59:33,279 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 15:59:34,089 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 15:59:34,389 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 15:59:34,947 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 15:59:35,248 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 15:59:35,798 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 15:59:36,099 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 15:59:46,658 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:00:00,180 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:00:00,181 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 28, in run
+    snapshot(step['step'].png)
+AttributeError: 'str' object has no attribute 'png'
+2020-09-15 16:02:25,736 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:02:25,736 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:02:25,736 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:02:25,737 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:02:28,304 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:02:29,105 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:02:29,105 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:02:29,105 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:02:29,105 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:02:29,897 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:02:30,198 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:02:30,872 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:02:31,172 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:02:31,726 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:02:32,027 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:02:42,544 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:02:56,082 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:02:56,355 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 16:02:56,856 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:05:31,134 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:05:31,135 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:05:31,135 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:05:31,135 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:05:33,680 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:05:34,481 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:05:34,481 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:05:34,481 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:05:34,481 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:05:35,281 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:05:35,581 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:05:36,148 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:05:36,448 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:05:37,026 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:05:37,327 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:05:47,888 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:06:01,443 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:06:01,731 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 16:06:02,232 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:13:30,469 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:13:30,469 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:13:30,469 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:13:30,470 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:13:33,715 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:13:34,516 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:13:34,516 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:13:34,517 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:13:34,517 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:13:35,303 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:13:35,603 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:13:36,153 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:13:36,454 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:13:37,004 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:13:37,304 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:13:47,814 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:14:01,343 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:14:01,648 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 16:14:02,149 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:17:05,789 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:17:05,789 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:17:05,789 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:17:05,789 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:17:08,166 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:17:08,967 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:17:08,967 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:17:08,967 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:17:08,967 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:17:09,755 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:17:10,056 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:17:10,611 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:17:10,912 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:17:11,463 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:17:11,764 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:17:22,276 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:17:35,818 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:17:35,818 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 30, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 23, in snapshot
+    result = g.driver.save_screenshot('snapshot/'+mkdir(get_today())+str(today) + '_' + img_file)
+TypeError: can only concatenate str (not "NoneType") to str
+2020-09-15 16:19:48,518 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:19:48,518 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:19:48,518 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:19:48,518 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:19:50,799 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:19:51,600 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:19:51,600 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:19:51,600 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:19:51,600 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:19:52,388 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:19:52,689 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:19:53,247 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:19:53,548 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:19:54,101 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:19:54,402 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:20:04,948 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:20:18,504 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:20:18,504 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 30, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 23, in snapshot
+    result = g.driver.save_screenshot('snapshot/'+mkdir(get_today())+str(today) + '_' + img_file)
+TypeError: can only concatenate str (not "WindowsPath") to str
+2020-09-15 16:26:37,900 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:26:37,900 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:26:37,900 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:26:37,900 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:26:40,464 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:26:41,266 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:26:41,266 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:26:41,266 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:26:41,266 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:26:42,040 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:26:42,341 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:26:42,983 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:26:43,283 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:26:43,837 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:26:44,138 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:26:54,666 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:27:08,175 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:27:08,175 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 30, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 22, in snapshot
+    _dir = str(mkdir('../snapshot/'+get_today()))
+  File "D:\sktest\common\log.py", line 20, in mkdir
+    path.mkdir()
+  File "D:\Program Files (x86)\Python\Python37\lib\pathlib.py", line 1230, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: '..\\snapshot\\20200915'
+2020-09-15 16:28:00,271 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:28:00,271 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:28:00,272 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:28:00,272 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:28:02,834 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:28:03,635 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:28:03,635 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:28:03,635 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:28:03,635 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:28:04,424 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:28:04,725 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:28:05,274 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:28:05,574 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:28:06,118 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:28:06,419 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:28:16,958 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:28:30,469 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:28:30,469 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 30, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 22, in snapshot
+    str(mkdir('../snapshot/'+get_today()))
+  File "D:\sktest\common\log.py", line 20, in mkdir
+    path.mkdir()
+  File "D:\Program Files (x86)\Python\Python37\lib\pathlib.py", line 1230, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: '..\\snapshot\\20200915'
+2020-09-15 16:38:26,491 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:38:26,491 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:38:26,491 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:38:26,491 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:38:29,084 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:38:29,885 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:38:29,885 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:38:29,885 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:38:29,885 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:38:30,662 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:38:30,963 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:38:31,512 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:38:31,813 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:38:32,494 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:38:32,795 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:38:43,348 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:38:56,928 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:38:56,929 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 30, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 23, in snapshot
+    result = g.driver.save_screenshot(new_path + datetime.strftime(datetime.now(), '%H%M%S') + '_' + img_file)
+  File "D:\sktest\common\log.py", line 20, in mkdir
+    path.mkdir()
+  File "D:\Program Files (x86)\Python\Python37\lib\pathlib.py", line 1230, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\snapshot\\20200915'
+2020-09-15 16:41:34,415 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:41:34,415 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:41:34,415 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:41:34,416 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:41:37,583 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:41:38,384 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:41:38,384 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:41:38,384 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:41:38,384 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:41:39,171 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:41:39,472 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:41:40,018 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:41:40,319 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:41:40,862 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:41:41,163 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:41:51,718 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:42:05,243 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:42:05,244 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 29, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 22, in snapshot
+    mkdir(new_path)
+  File "D:\sktest\common\log.py", line 22, in mkdir
+    path.mkdir()
+  File "D:\Program Files (x86)\Python\Python37\lib\pathlib.py", line 1230, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\snapshot\\20200915'
+2020-09-15 16:43:36,241 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:43:36,242 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:43:36,242 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:43:36,242 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:43:38,699 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:43:39,500 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:43:39,500 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:43:39,500 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:43:39,501 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:43:40,327 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:43:40,627 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:43:41,261 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:43:41,562 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:43:42,109 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:43:42,409 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:43:52,931 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:44:06,468 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:44:06,469 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 29, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 23, in snapshot
+    mkdir(new_path)
+  File "D:\sktest\common\log.py", line 22, in mkdir
+    path.mkdir()
+  File "D:\Program Files (x86)\Python\Python37\lib\pathlib.py", line 1230, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\snapshot\\20200915'
+2020-09-15 16:49:47,595 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:49:47,596 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:49:47,596 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:49:47,596 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:49:49,993 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:49:50,793 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:49:50,794 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:49:50,798 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:49:50,799 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:49:56,600 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:49:56,901 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:49:57,508 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:49:57,808 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:49:58,393 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:49:58,693 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:50:09,241 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:50:22,787 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:50:22,788 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 29, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 22, in snapshot
+    g.mkdir(new_path)
+  File "D:\sktest\common\globals.py", line 55, in mkdir
+    path.mkdir()
+  File "D:\Program Files (x86)\Python\Python37\lib\pathlib.py", line 1230, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\snapshot\\20200915'
+2020-09-15 16:51:28,562 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:51:28,562 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:51:28,563 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:51:28,563 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:51:31,020 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:51:31,820 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:51:31,820 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:51:31,820 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:51:31,820 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:51:32,598 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:51:32,898 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:51:33,448 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:51:33,749 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:51:34,322 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:51:34,622 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:51:45,136 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:51:58,695 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:51:58,696 [ERROR]: #  用例test-2:提交咨询单执行失败
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testcase.py", line 23, in run
+    getattr(Action, step['operation'].lower())(step)
+  File "D:\sktest\common\acction.py", line 28, in input
+    location_ele.send_keys(data)
+AttributeError: 'str' object has no attribute 'send_keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\sktest\testsuit.py", line 30, in run
+    tc.run()
+  File "D:\sktest\sktest\testcase.py", line 29, in run
+    snapshot(string_)
+  File "D:\sktest\common\snapshot.py", line 22, in snapshot
+    g.mkdir(new_path)
+  File "D:\sktest\common\globals.py", line 55, in mkdir
+    path.mkdir()
+  File "D:\Program Files (x86)\Python\Python37\lib\pathlib.py", line 1230, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\snapshot\\20200915'
+2020-09-15 16:57:38,447 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:57:38,447 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:57:38,447 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:57:38,447 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:57:42,344 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:57:43,146 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:57:43,146 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:57:43,146 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:57:43,146 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:57:43,921 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:57:44,222 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:57:44,787 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:57:45,088 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:57:45,636 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 16:57:45,937 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 16:57:56,476 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:58:10,038 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 16:58:10,340 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 16:58:10,841 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:59:54,220 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 16:59:54,220 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:59:54,221 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 16:59:54,221 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 16:59:56,551 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 16:59:57,353 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 16:59:57,353 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 16:59:57,353 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 16:59:57,354 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 16:59:58,199 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 16:59:58,499 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 16:59:59,077 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 16:59:59,377 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 16:59:59,964 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 17:00:00,265 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 17:00:10,824 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:00:24,385 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:00:24,705 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 17:00:25,206 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 17:01:27,470 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 17:01:27,471 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 17:01:27,471 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 17:01:27,471 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 17:01:30,474 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 17:01:31,275 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 17:01:31,275 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 17:01:31,275 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 17:01:31,275 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 17:01:32,047 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 17:01:32,347 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 17:01:32,898 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 17:01:33,199 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 17:01:33,745 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 17:01:34,045 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 17:01:44,555 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:01:58,101 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:01:58,411 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 17:01:58,912 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 17:02:40,278 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 17:02:40,278 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 17:02:40,278 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 17:02:40,278 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 17:02:43,035 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 17:02:43,836 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 17:02:43,836 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 17:02:43,836 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 17:02:43,836 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 17:02:44,624 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 17:02:44,925 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 17:02:55,367 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Fail
+2020-09-15 17:02:55,368 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 17:03:05,917 [ERROR]: #  元素：api详情页面-立即咨询第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:03:19,478 [ERROR]: #  元素：api详情页面-立即咨询定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:03:19,960 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Fail
+2020-09-15 17:03:19,961 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 17:03:30,477 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:03:44,031 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:03:44,464 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 17:03:44,964 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 17:05:16,889 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-15 17:05:16,890 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 17:05:16,890 [INFO]: #  -------- Run The TestCase：test-1 打开OMP
+2020-09-15 17:05:16,890 [INFO]: #  Run The Step: 1|OPEN|OMP首页链接
+2020-09-15 17:05:19,263 [INFO]: #  Run The Step: 1|OPEN|OMP首页-OMP首页链接 Success
+2020-09-15 17:05:20,064 [INFO]: #  ****  用例执行完成  ****
+2020-09-15 17:05:20,064 [INFO]: #  **** 解析用例成功 ****
+2020-09-15 17:05:20,064 [INFO]: #  -------- Run The TestCase：test-2 提交咨询单
+2020-09-15 17:05:20,065 [INFO]: #  Run The Step: 1|HOVER|产品
+2020-09-15 17:05:20,874 [INFO]: #  Run The Step: 1|HOVER|OMP首页-产品 Success
+2020-09-15 17:05:21,174 [INFO]: #  Run The Step: 2|CLICK|IKI标识密钥集成平台
+2020-09-15 17:05:21,747 [INFO]: #  Run The Step: 2|CLICK|OMP首页-IKI标识密钥集成平台 Success
+2020-09-15 17:05:22,047 [INFO]: #  Run The Step: 3|CLICK|立即咨询
+2020-09-15 17:05:22,627 [INFO]: #  Run The Step: 3|CLICK|api详情页面-立即咨询 Success
+2020-09-15 17:05:22,927 [INFO]: #  Run The Step: 4|INPUT|手机号
+2020-09-15 17:05:33,462 [ERROR]: #  元素：咨询单页面-手机号第一次定位超时，等待三秒重试！！！
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:05:46,997 [ERROR]: #  元素：咨询单页面-手机号定位超时
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 24, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\sktest\common\locator.py", line 29, in locating_element
+    element_location = wait.until(EC.presence_of_element_located((getattr(By, el_['by'].upper()), value)))
+  File "D:\sktest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-09-15 17:05:47,311 [INFO]: #  Run The Step: 4|INPUT|咨询单页面-手机号 Fail
+2020-09-15 17:05:47,811 [INFO]: #  ****  用例执行完成  ****
