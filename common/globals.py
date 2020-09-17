@@ -12,8 +12,11 @@ class Globals:
         self.driver = ''
         self.executable_path = ''
         self.page = ''
-        self.result = []
+        self.step_result = []
+        self.case_result = []
         self.data = 'gd'
+        self.case_sum_num = 0
+        self.case_run_num = 0
 
     def init(self, browser_config):
         self.browser = browser_config.get('browserName', '').lower()

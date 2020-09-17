@@ -1,10 +1,11 @@
 # -*-coding:utf8-*-
 # @auth 小哥哥
 # @time 2020/8/22 10:01
-import openpyxl,xlrd
-
+from datetime import datetime
+import openpyxl, xlrd
 from common.config import header, keywords, result_col
 from common.globals import g
+from pathlib import Path
 
 
 class Excel:
@@ -38,7 +39,6 @@ class Excel:
 
     def close(self):
         self.workbook.close()
-
 
 
 def data_to_dict(data):
@@ -84,7 +84,7 @@ def testsuit_format(data):
             if test_case.get('id'):
                 test_suite.append(test_case)
                 test_case = {}
-            for key in ('id', 'title', 'condition', 'flag', 'result'):
+            for key in ('id', 'title', 'condition', 'flag', 'expected'):
                 test_case[key] = i[key]
 
             test_case['steps'] = []
@@ -136,6 +136,18 @@ def parse(test_case):
         step['operation'] = check_keyword(step['operation'])
 
 
+def get_today():
+    now = datetime.now()
+    return now.strftime('%Y%m%d')
+
+
+def mkdir(directory):
+    path = Path(directory)
+    if not path.is_dir():
+        path.mkdir()
+    return str(path)
+
+
 if __name__ == '__main__':
     # e = Excel(r'D:\Desktop\Excel File\test.xlsx', mode='r')
     # print('==' * 20)
@@ -143,5 +155,3 @@ if __name__ == '__main__':
     # print(element_format(e.read('elements')))
 
     pass
-
-

@@ -5,20 +5,7 @@
 
 import logging
 import sys
-from datetime import datetime
-from pathlib import Path
-
-
-def get_today():
-    now = datetime.now()
-    return now.strftime('%Y%m%d')
-
-
-def mkdir(directory):
-    path = Path(directory)
-    if not path.is_dir():
-        path.mkdir()
-
+from common.utility import get_today, mkdir, Path
 
 mkdir('log')
 logger = logging.getLogger('x')  # 实例化logger对象
@@ -34,6 +21,5 @@ control_handle.setFormatter(formatter)
 logger.addHandler(file_handle)
 logger.addHandler(control_handle)
 
-
 if __name__ == '__main__':
-    pass
+    print(mkdir('kkk'))

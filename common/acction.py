@@ -21,11 +21,15 @@ class Action:
 
     @staticmethod
     def input(step):
-        data = step.get('data','')
+        data = step.get('data', '')
         element = step['element']
         location_ele = locating_element(element)
         if data:
-            location_ele.send_keys(data)
+            if data.startswith('text'):
+                data = str(data).split('=')[1]
+                location_ele.send_keys(data)
+            else:
+                location_ele.send_keys(data)
         else:
             location_ele.send_keys(g.data)
         sleep(0.5)
@@ -43,7 +47,7 @@ class Action:
         actions = ActionChains(g.driver)
         element = step['element']
         element_location = locating_element(element)
-        actions.move_to_element(element_location)
+        actions.move_to_element(element_location).perform()
         sleep(0.5)
         return element_location
 
