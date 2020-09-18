@@ -1,0 +1,81 @@
+2020-09-14 09:55:04,181 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-14 09:55:04,181 [INFO]: #  **** 解析用例成功 ****
+2020-09-14 09:55:04,181 [INFO]: #  -------- Run The TestCase：test-1 打开百度
+2020-09-14 09:55:04,181 [INFO]: #  Run The Step: 1|OPEN|百度搜索链接
+2020-09-14 09:55:06,293 [INFO]: #  Run The Step: 1|OPEN|百度搜索页-百度搜索链接 Success
+2020-09-14 09:55:06,594 [INFO]: #  Run The Step: 2|INPUT|百度搜索框
+2020-09-14 09:55:07,206 [INFO]: #  Run The Step: 2|INPUT|百度搜索页-百度搜索框 Success
+2020-09-14 09:55:07,507 [INFO]: #  Run The Step: 3|CLICK|百度搜索按钮
+2020-09-14 09:55:08,070 [INFO]: #  Run The Step: 3|CLICK|百度搜索页-百度搜索按钮 Success
+2020-09-14 09:55:08,931 [INFO]: #  ****  用例执行完成  ****
+2020-09-14 09:55:08,932 [INFO]: #  **** 解析用例成功 ****
+2020-09-14 09:55:08,932 [INFO]: #  -------- Run The TestCase：test-2 中国知网注册
+2020-09-14 09:55:08,932 [INFO]: #  Run The Step: 1|OPEN|注册链接
+2020-09-14 09:55:10,484 [INFO]: #  Run The Step: 1|OPEN|中国知网-注册链接 Success
+2020-09-14 09:55:10,785 [INFO]: #  Run The Step: 2|INPUT|用户名
+2020-09-14 09:55:11,386 [INFO]: #  Run The Step: 2|INPUT|中国知网-用户名 Success
+2020-09-14 09:55:11,687 [INFO]: #  Run The Step: 3|INPUT|密码
+2020-09-14 09:55:12,300 [INFO]: #  Run The Step: 3|INPUT|中国知网-密码 Success
+2020-09-14 09:55:12,601 [INFO]: #  Run The Step: 4|INPUT|邮箱
+2020-09-14 09:55:13,193 [INFO]: #  Run The Step: 4|INPUT|中国知网-邮箱 Success
+2020-09-14 09:55:13,494 [INFO]: #  Run The Step: 5|RECOGNITION|验证码图片
+2020-09-14 09:55:14,106 [INFO]: #  Run The Step: 5|RECOGNITION|中国知网-验证码图片 Fail
+2020-09-14 09:55:14,106 [INFO]: #  Run The Step: 6|INPUT|验证码
+2020-09-14 09:55:14,671 [INFO]: #  Run The Step: 6|INPUT|中国知网-验证码 Success
+2020-09-14 09:55:14,972 [INFO]: #  Run The Step: 7|CLICK|立即注册
+2020-09-14 09:55:15,665 [INFO]: #  Run The Step: 7|CLICK|中国知网-立即注册 Success
+2020-09-14 09:55:16,466 [INFO]: #  ****  用例执行完成  ****
+2020-09-14 13:27:32,865 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-14 13:27:32,888 [INFO]: #  **** 解析用例成功 ****
+2020-09-14 13:27:32,888 [INFO]: #  -------- Run The TestCase：test-1 打开百度
+2020-09-14 13:27:32,888 [INFO]: #  Run The Step: 1|OPEN|百度搜索链接
+2020-09-14 13:27:36,875 [INFO]: #  Run The Step: 1|OPEN|百度搜索页-百度搜索链接 Success
+2020-09-14 13:27:37,176 [INFO]: #  Run The Step: 2|INPUT|百度搜索框
+2020-09-14 13:27:38,033 [INFO]: #  Run The Step: 2|INPUT|百度搜索页-百度搜索框 Success
+2020-09-14 13:27:38,334 [INFO]: #  Run The Step: 3|CLICK|百度搜索按钮
+2020-09-14 13:27:38,988 [INFO]: #  Run The Step: 3|CLICK|百度搜索页-百度搜索按钮 Success
+2020-09-14 13:27:39,790 [INFO]: #  ****  用例执行完成  ****
+2020-09-14 13:27:39,790 [INFO]: #  **** 解析用例成功 ****
+2020-09-14 13:27:39,790 [INFO]: #  -------- Run The TestCase：test-2 中国知网注册
+2020-09-14 13:27:39,790 [INFO]: #  Run The Step: 1|OPEN|注册链接
+2020-09-14 13:27:42,614 [INFO]: #  Run The Step: 1|OPEN|中国知网-注册链接 Success
+2020-09-14 13:27:42,915 [INFO]: #  Run The Step: 2|INPUT|用户名
+2020-09-14 13:27:43,583 [INFO]: #  Run The Step: 2|INPUT|中国知网-用户名 Success
+2020-09-14 13:27:43,884 [INFO]: #  Run The Step: 3|INPUT|密码
+2020-09-14 13:27:44,448 [INFO]: #  Run The Step: 3|INPUT|中国知网-密码 Success
+2020-09-14 13:27:44,748 [INFO]: #  Run The Step: 4|INPUT|邮箱
+2020-09-14 13:27:45,329 [INFO]: #  Run The Step: 4|INPUT|中国知网-邮箱 Success
+2020-09-14 13:27:45,629 [INFO]: #  Run The Step: 5|RECOGNITION|验证码图片
+2020-09-14 13:27:50,447 [INFO]: #  Run The Step: 5|RECOGNITION|中国知网-验证码图片 Success
+2020-09-14 13:27:50,748 [INFO]: #  Run The Step: 6|INPUT|验证码
+2020-09-14 13:27:51,316 [INFO]: #  Run The Step: 6|INPUT|中国知网-验证码 Success
+2020-09-14 13:27:51,616 [INFO]: #  Run The Step: 7|CLICK|立即注册
+2020-09-14 13:27:52,337 [INFO]: #  Run The Step: 7|CLICK|中国知网-立即注册 Success
+2020-09-14 13:27:53,137 [INFO]: #  ****  用例执行完成  ****
+2020-09-14 13:55:14,135 [INFO]: #  **** 从Excel导入用例套件成功 ****
+2020-09-14 13:55:14,135 [INFO]: #  **** 解析用例成功 ****
+2020-09-14 13:55:14,135 [INFO]: #  -------- Run The TestCase：test-1 打开百度
+2020-09-14 13:55:14,135 [INFO]: #  Run The Step: 1|OPEN|百度搜索链接
+2020-09-14 13:55:15,953 [INFO]: #  Run The Step: 1|OPEN|百度搜索页-百度搜索链接 Success
+2020-09-14 13:55:16,254 [INFO]: #  Run The Step: 2|INPUT|百度搜索框
+2020-09-14 13:55:16,843 [INFO]: #  Run The Step: 2|INPUT|百度搜索页-百度搜索框 Success
+2020-09-14 13:55:17,144 [INFO]: #  Run The Step: 3|CLICK|百度搜索按钮
+2020-09-14 13:55:17,709 [INFO]: #  Run The Step: 3|CLICK|百度搜索页-百度搜索按钮 Success
+2020-09-14 13:55:18,510 [INFO]: #  ****  用例执行完成  ****
+2020-09-14 13:55:18,510 [INFO]: #  **** 解析用例成功 ****
+2020-09-14 13:55:18,510 [INFO]: #  -------- Run The TestCase：test-2 中国知网注册
+2020-09-14 13:55:18,510 [INFO]: #  Run The Step: 1|OPEN|注册链接
+2020-09-14 13:55:20,730 [INFO]: #  Run The Step: 1|OPEN|中国知网-注册链接 Success
+2020-09-14 13:55:21,031 [INFO]: #  Run The Step: 2|INPUT|用户名
+2020-09-14 13:55:21,611 [INFO]: #  Run The Step: 2|INPUT|中国知网-用户名 Success
+2020-09-14 13:55:21,916 [INFO]: #  Run The Step: 3|INPUT|密码
+2020-09-14 13:55:22,570 [INFO]: #  Run The Step: 3|INPUT|中国知网-密码 Success
+2020-09-14 13:55:22,871 [INFO]: #  Run The Step: 4|INPUT|邮箱
+2020-09-14 13:55:23,457 [INFO]: #  Run The Step: 4|INPUT|中国知网-邮箱 Success
+2020-09-14 13:55:23,758 [INFO]: #  Run The Step: 5|RECOGNITION|验证码图片
+2020-09-14 13:55:25,130 [INFO]: #  Run The Step: 5|RECOGNITION|中国知网-验证码图片 Success
+2020-09-14 13:55:25,431 [INFO]: #  Run The Step: 6|INPUT|验证码
+2020-09-14 13:55:25,997 [INFO]: #  Run The Step: 6|INPUT|中国知网-验证码 Success
+2020-09-14 13:55:26,299 [INFO]: #  Run The Step: 7|CLICK|立即注册
+2020-09-14 13:55:27,138 [INFO]: #  Run The Step: 7|CLICK|中国知网-立即注册 Success
+2020-09-14 13:55:27,939 [INFO]: #  ****  用例执行完成  ****

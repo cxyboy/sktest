@@ -18,26 +18,24 @@ class TestSuit:
 
         for test_case in self.test_suit:
             g.case_sum_num += 1
-
-            try:
-                parse(test_case)
-                logger.info("**** 解析用例成功 ****")
-            except:
-                logger.exception("用例解释失败")
-            else:
+            if test_case['flag'].upper() == 'Y':
                 try:
-                    logger.info("-------- Run The TestCase：%s %s" % (test_case['id'], test_case['title']))
-                    tc = TestCase(test_case)
-                    tc.run()
-
+                    parse(test_case)
+                    logger.info("**** Parse use case successful ****")
                 except:
-
-                    logger.exception(f'用例{test_case["id"]}:{test_case["title"]}执行失败')
+                    logger.exception("**** Parse use case failure ****")
                 else:
-                    logger.info("****  用例执行完成  ****")
-
-                # finally:
-                #     g.case_list.append(test_case)
-        # print(g.result) TODO 将用例执行结果写入excel
+                    try:
+                        logger.info(">>> Executed The Test Case：%s %s" % (test_case['id'], test_case['title']))
+                        tc = TestCase(test_case)
+                        tc.run()
+                    except:
+                        logger.exception(f'**** case {test_case["id"]}:{test_case["title"]} executed  failure ****')
+                    else:
+                        logger.info(f"**** Executed Test Case: {test_case['id']}:{test_case['title']}  successfully ****")
+            else:
+                case_result = 'skipped'
+                g.case_result.append(
+                    [test_case['id'], test_case['title'], test_case['expected'], case_result, 'skipped'])
 
         g.driver.quit()

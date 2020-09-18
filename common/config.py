@@ -46,6 +46,6 @@ element_wait_time = 10  # 元素查找超时时间 s
 page_flash_timeout = 90  # 页面刷新超时时间 s
 
 # driver路径
-ie_executable_path = ''
-chrome_executable_path = ''
-firefox_executable_path = ''
+# ie_executable_path = ''
+# chrome_executable_path = ''
+# firefox_executable_path = ''
