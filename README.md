@@ -1,2 +1,2 @@
 # sktest
-关键字ui测试框架
+基于selenium的关键字ui快速测试框架
