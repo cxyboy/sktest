@@ -14,8 +14,8 @@ def send_email(toaddrs, content=None):
     # 发送邮箱服务器
     smtpserver = 'smtp.qq.com'
     # 发送用户和密码
-    user = '791297575@qq.com'
-    password = 'fxpqnhnsjfhybebf'
+    user = 'Your email'
+    password = 'Your email authorization code'
     if not content:
         content = f"""
         测试环境：{os.name}
