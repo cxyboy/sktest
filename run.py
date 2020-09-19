@@ -5,7 +5,9 @@
 import os
 from datetime import datetime
 from sktest.autotest import AutoTest
-from common.email import send_email
+from common.emailtool import send_email
+
+case_object_name = 'Your Object name'
 
 file_path = 'testcase/testcase.xlsx'
 sheet_name = 'case'
@@ -19,15 +21,16 @@ auto = AutoTest(file_path, sheet_name, browser_config)
 run_time = datetime.strftime(datetime.now(), "%Y/%m/%d %H:%M:%S")
 auto.run()
 
+email_config = {'user': "Your email", "password": "Email authorization code"}
 email_receiver = ['18573208753@163.com']
 email_content = f"""
-        测试项目：xxx
+        测试项目：{case_object_name}
         测试环境：{os.name}
         执行时间：{run_time}
         测试执行人：{os.getlogin()}
         自动化测试完成，详情请查阅附件。。。
     """
-send_email(email_receiver, email_content)
+send_email(email_config, email_receiver, email_content)
 
 # TODO 后续扩展：
 #                1.错误截图 --  done 出错截取整个屏幕
