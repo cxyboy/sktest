@@ -30,8 +30,3 @@
     - 存放元素的sheet 名字必须是 'elements'
     - 用例表单页面和元素列的名字必须和元素表page和element保持一致
 ***
-# 自定义配置信息
-    或者你可以尝试自己配置一些信息，在你创建的py文件修改这些配置信息
-1. 自行配置测试用例文件的路径(cfn.excel_file_path)，无需再创建testcase目录
-2. 配置浏览器及driver(cfn.browser_name、cfn.executable_path)
-3. 配置邮件信息(cfn.email_account、email_password、email_receiver、case_object_name)
