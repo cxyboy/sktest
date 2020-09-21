@@ -14,7 +14,7 @@
 # 安装
 > pip install sktest
 ***
-# 使用
+# 快速使用
 1. 新建一个测试项目
 2. 安装sktest
 3. 在项目下新建两个目录---testcase、report
@@ -22,6 +22,19 @@
 5. 新建一个py文件，编写代码:'from sktest import run'
 6. 运行这个py文件
 ***
+## 测试用例示例
+![case](http://m.qpic.cn/psc?/V54ePMDp3lDEZw32DPWK2XO6Tg3SZLRl/bqQfVz5yrrGYSXMvKr.cqbQQiYgAxkNv38AXv9gnccg2IsXqCs9QT2tlRC2PLHPBkWrD5HqJGWlkUGG.qPTpzms2NUzK*sNem3FaDRKvREg!/b&bo=wgREAwAAAAADB6M!&rf=viewer_4)
+![elements](http://m.qpic.cn/psc?/V54ePMDp3lDEZw32DPWK2XO6Tg3SZLRl/bqQfVz5yrrGYSXMvKr.cqSFcGtB5ax2hODaPrUSJ3QekZao.31sONPhDVpXB1SYZEqNBd1nKQZzTW1Q*eUDVcyXz5OmzdLio0YW4gDp94OM!/b&bo=sANEAwAAAAADB9Y!&rf=viewer_4)
+- 重点：
+    - 编写用例的sheet 名字必须是你所指定sheet_name，如果没有配置默认是 'case'
+    - 存放元素的sheet 名字必须是 'elements'
+    - 用例表单页面和元素列的名字必须和元素表page和element保持一致
+***
+# 自定义配置信息
+    或者你可以尝试自己配置一些信息，在你创建的py文件修改这些配置信息
+1. 自行配置测试用例文件的路径(cfn.excel_file_path)，无需再创建testcase目录
+2. 配置浏览器及driver(cfn.browser_name、cfn.executable_path)
+3. 配置邮件信息(cfn.email_account、email_password、email_receiver、case_object_name)
 # 待完成计划
 -[ ] 下个版本完善testcase、report目录自动创建（原本设计的时候就是这么考虑的，也是这样做的，但是似乎出了点小问题）
 -[ ] 页面的操作还不够全面，毕竟目前应该算是公测版本
