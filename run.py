@@ -6,17 +6,23 @@
 from sktest.test.autotest import AutoTest
 
 
-def run(file_path, sheet_name, chrome_executable_path=''):
-    """
-    :param file_path: Test file address
-    :param sheet_name:The name of the test form
-    :chrome_executable_path:Drive path
-    :return:
-    """
+class Test:
 
-    browser_config = {"browserName": "Chrome", "executable_path": chrome_executable_path}
-    auto = AutoTest(file_path, sheet_name, browser_config)
-    auto.run()
+    def __init__(self, file_path, sheet_name, browser="Chrome", drive=""):
+        """
+        :param file_path: Test file address
+        :param sheet_name:The name of the test form
+        :param browser: Used browser
+        :param drive: Drive executable_path
+        :return:
+        """
+        self.__path = file_path
+        self.__name = sheet_name
+        self.__browser = browser
+        self.__drive = drive
 
-if __name__ == '__main__':
-    run(r"E:\sktest\sktest\testcase\testcase.xlsx", "case")
+    def main(self):
+        executable_config = {"browser_name": self.__browser, "executable_path": self.__drive}
+        auto = AutoTest(self.__path, self.__name, executable_config)
+        auto.run()
+

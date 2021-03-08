@@ -20,7 +20,7 @@ class Globals:
         self.case_run_num = 0
 
     def init(self, browser_config):
-        self.browser = browser_config.get('browserName', '').lower()
+        self.browser = browser_config.get('browser_name', '').lower()
         self.executable_path = browser_config.get('executable_path', '')
 
         if self.browser == 'ie':
